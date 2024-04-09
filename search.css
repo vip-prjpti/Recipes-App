@@ -1,0 +1,158 @@
+/* Search recipes page styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-weight: 300;
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.meal-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.meal-search {
+    margin: 2rem 0;
+}
+
+.meal-search-box {
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-content,
+.search-btn {
+    width: 100%;
+}
+
+.search-content {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #4fb9fb;
+    color: #4fb9fb;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+
+.search-content::placeholder {
+    color: #4fb9fb;
+}
+
+.search-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 1.1rem;
+    background: #4fb9fb;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all 0.2s linear;
+
+}
+
+.search-btn:hover {
+    background: #009dff;
+}
+
+.meal-result {
+    margin-top: 4rem;
+}
+
+#meal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.meal-item {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+    flex-grow: 1;
+    flex-basis: 250px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.meal-img img {
+    /* width: 100%; */
+    /* display: block; */
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.meal-name {
+    padding: 1.5rem 0.5rem;
+}
+
+.meal-name h3 {
+    font-size: 1.4rem;
+
+}
+
+.recipe-btn {
+    text-decoration: none;
+    color: #fff;
+    background: #4fb9fb;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.75rem 0;
+    display: block;
+    width: 175px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.recipe-btn:hover {
+    background: #009dff;
+    transition: all 0.2s linear;
+}
+
+/* responsive */
+@media screen and (min-width:768px) {
+    #meal {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}

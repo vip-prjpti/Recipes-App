@@ -1,11 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p></p>
+    <a href="search.html">Search</a>
+    <!-- Filter Gallery - Recipes -->
+    <div class="filter-container">
+        <div class="filter-buttons">
+            <ul>
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="mexican">Mexican</li>
+                <li data-filter="italian">Italian</li>
+                <li data-filter="indian">Indian</li>
+                <li data-filter="french">French</li>
+                <li data-filter="arabian">Arabian</li>
+            </ul>
+        </div>
+
+        <!--  -->
+        <div class="filterable-recipes">
+            <div class="item indian">
+                <img src="assets/images/Veg Thali.png" alt="Veg Thali">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Veg Thali
+                    </h6>
+                </div>
+            </div>
+            <div class="item french">
+                <img src="assets/images/frenchToast-french.jpg" alt="French Toast">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        French Toast
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/choleBhature.jpeg" alt="chole Bhature">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Chole Bhature
+                    </h6>
+                </div>
+            </div>
+            <div class="item mexican">
+                <img src="assets/images/caesarSalad-mexican.jpg" alt="Caesar Salad">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Caesar Salad
+                    </h6>
+                </div>
+            </div>
+            <div class="item italian">
+                <img src="assets/images/Chicken-Alfredo-Pasta-italian.jpg" alt="Alfredo Pasta">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Chicken Alfredo Pasta
+                    </h6>
+                </div>
+            </div>
+            <div class="item arabian">
+                <img src="assets/images/Chicken-Shawarma.jpg" alt="Shawarma">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Chicken Shawarma
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/churChurNaan.jpg" alt="chur chur naan">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Amritsari Chur Chur Naan
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/indian-1768906_1280.jpg" alt="Masala Dosa">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Masala Dosa
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/Kadai-Chicken.jpg" alt="Karahi Chicken">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Karahi Chicken
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/paniPuri.jpg" alt="Pani Puri">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Pani Puri
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/Pav Bhaji.jpg" alt="Pav Bhaji">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Pav Bhaji
+                    </h6>
+                </div>
+            </div>
+            <div class="item indian">
+                <img src="assets/images/shahiPaneer.jpg" alt="Shahi Paneer">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Shahi Paneer
+                    </h6>
+                </div>
+            </div>
+            <div class="item french">
+                <img src="assets/images/vegetable-ratatouille-french.jpg" alt="Ratatouille">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Veg Ratatouille
+                    </h6>
+                </div>
+            </div>
+            <div class="item italian">
+                <img src="assets/images/chickenPasta-italian.jpg" alt="Pasta">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Chicken Pasta
+                    </h6>
+                </div>
+            </div>
+            <div class="item french">
+                <img src="assets/images/coffee-with-milk-and-french-croissant.jpg" alt="croissant with coffee">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Coffee with Croissant
+                    </h6>
+                </div>
+            </div>
+            <div class="item french">
+                <img src="assets/images/crepes-recipe-french.jpg" alt="crepes">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Crepes
+                    </h6>
+                </div>
+            </div>
+            <div class="item mexican">
+                <img src="assets/images/fajitas-5933057_1280.jpg" alt="fajitas">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Fajitas
+                    </h6>
+                </div>
+            </div>
+            <div class="item french">
+                <img src="assets/images/frites-andalouse-french.jpg" alt="frites">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Frites
+                    </h6>
+                </div>
+            </div>
+            <div class="item arabian">
+                <img src="assets/images/kebab-arabian.jpeg" alt="kebab">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Kebabs
+                    </h6>
+                </div>
+            </div>
+            <div class="item mexican">
+                <img src="assets/images/nachos-5740734_1280.jpg" alt="nachos">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Nachos and Mac
+                    </h6>
+                </div>
+            </div>
+            <div class="item italian">
+                <img src="assets/images/pizzaMargherita-italian.jpg" alt="pizza">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Margherita
+                    </h6>
+                </div>
+            </div>
+            <div class="item mexican">
+                <img src="assets/images/quesadilla-mexican.jpg" alt="pizza">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Quesadilla
+                    </h6>
+                </div>
+            </div>
+            <div class="item italian">
+                <img src="assets/images/spaghetti-with-tomato-sauce-italian.jpg" alt="pizza">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Spaghetti w/ Tomato Sauce
+                    </h6>
+                </div>
+            </div>
+            <div class="item mexican">
+                <img src="assets/images/tacos-8642944_1280.png" alt="tacos">
+                <div class="item_desc">
+                    <h6 class="item_name">
+                        Tacos
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
